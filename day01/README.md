@@ -1,1 +1,1 @@
-![sol](day01/sql_sol.png)
+![sol](./sql_sol.png)

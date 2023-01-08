@@ -1,6 +1,6 @@
-🎄 Advent of Code 2022 🎄
+## 🎄 Advent of Code {'year':2022} 🎄
 
-![AoC2022 logo](https://raw.githubusercontent.com/orfeasa/advent-of-code-2022/master/header.png)
+![AoC2022 logo](./header.png)
 
 ## Summary
 [Advent of Code](http://adventofcode.com/) is an annual Advent calendar of programming puzzles. This year in SQL (because why not; using [Exasol DB](https://www.exasol.com/de/) - with a few changes most of the SQL also run on Oracle) & python.

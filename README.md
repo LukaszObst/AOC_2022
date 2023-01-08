@@ -3,7 +3,7 @@
 ![AoC2022 logo](./header.png)
 
 ## Summary
-[Advent of Code](http://adventofcode.com/) is an annual Advent calendar of programming puzzles. This year in SQL (because why not; using [Exasol DB](https://www.exasol.com/de/) - with a few changes most of the SQL also run on Oracle) & python.
+[Advent of Code](http://adventofcode.com/) is an annual Advent calendar of programming puzzles. This year I am doing it in SQL (because why not; using [Exasol DB](https://www.exasol.com/de/) - with a few changes most of the SQL also run on Oracle) & python.
 
 
 ## Overview

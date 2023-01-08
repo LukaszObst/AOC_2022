@@ -1,0 +1,39 @@
+with input_(s) as (
+	select '2-4,6-8
+2-3,4-5
+5-7,7-9
+2-8,3-7
+6-6,4-6
+2-6,4-8'
+),
+input_lines(s) as (
+	select REGEXP_SUBSTR(s, '.*', 1, level)
+	from input_
+	connect by REGEXP_SUBSTR(s, '.*', 1, level) is not null
+),
+preprocessed_lines(first_elf, second_elf) as (
+	select REGEXP_SUBSTR(s, '^[^,]*') first_elf, REGEXP_SUBSTR(s, '[^,]*$') second_elf
+	from input_lines
+),
+transformed_lines(first_elf_start, first_elf_end, second_elf_start, second_elf_end) as (
+	select TO_NUMBER(REGEXP_SUBSTR(first_elf, '^[^-]*')) first_elf_start, TO_NUMBER(REGEXP_SUBSTR(first_elf, '[^-]*$')) first_elf_end,
+		   TO_NUMBER(REGEXP_SUBSTR(second_elf, '^[^-]*')) second_elf_start, TO_NUMBER(REGEXP_SUBSTR(second_elf, '[^-]*$')) second_elf_end
+	from preprocessed_lines
+),
+complete_overlaps as (
+	select tl.*
+	from transformed_lines tl
+	where (first_elf_start >= second_elf_start and first_elf_end <= second_elf_end)
+		or (second_elf_start >= first_elf_start and second_elf_end <= first_elf_end)
+),
+all_overlaps as (
+	select tl.*
+	from transformed_lines tl
+	where (first_elf_start between second_elf_start and second_elf_end)
+	or (first_elf_end between second_elf_start and second_elf_end)
+	or (second_elf_start between first_elf_start and first_elf_end)
+	or (second_elf_end between first_elf_start and first_elf_end)
+)
+select 'Part one' part, count(*)  from complete_overlaps
+union all
+select 'Part two' part, count(*) from all_overlaps

@@ -8,14 +8,14 @@
 
 ## Overview
 
-| Day | Name                                                             | Stars |
-| --- | ---------------------------------------------------------------- | ----- |
-| 01  | [Calorie Counting](https://adventofcode.com/2022/day/1)          | ⭐⭐    |
-| 02  | [Rock Paper Scissors](https://adventofcode.com/2022/day/2)       | ⭐⭐    |
-| 03  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3)   | ⭐⭐    |
-| 04  | [Camp Cleanup](https://adventofcode.com/2022/day/4)              | ⭐⭐    |
-| 05  | [Supply Stacks](https://adventofcode.com/2022/day/5)             | ⭐⭐    |
-| 06  | [Tuning Trouble](https://adventofcode.com/2022/day/6)            | ⭐⭐    |
-| 07  | [No Space Left On Device](https://adventofcode.com/2022/day/7)   | ⭐⭐    |
-| 08  | [Treetop Tree House](https://adventofcode.com/2022/day/8)        | ⭐⭐    |
-| 09  | in progress                                                      |     |
+| Day | Name                                                             | Language            | Stars |
+| --- | ---------------------------------------------------------------- | --------------------| ----- |
+| 01  | [Calorie Counting](https://adventofcode.com/2022/day/1)          |  SQL + Python       | ⭐⭐ |
+| 02  | [Rock Paper Scissors](https://adventofcode.com/2022/day/2)       |  SQL                | ⭐⭐ |
+| 03  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3)   |  SQL                | ⭐⭐ |
+| 04  | [Camp Cleanup](https://adventofcode.com/2022/day/4)              |  SQL                | ⭐⭐ |
+| 05  | [Supply Stacks](https://adventofcode.com/2022/day/5)             |  Python             | ⭐⭐ |
+| 06  | [Tuning Trouble](https://adventofcode.com/2022/day/6)            |  SQL                | ⭐⭐ |
+| 07  | [No Space Left On Device](https://adventofcode.com/2022/day/7)   |  Python             | ⭐⭐ |
+| 08  | [Treetop Tree House](https://adventofcode.com/2022/day/8)        |  SQL                | ⭐⭐ |
+| 09  | in progress                                                      |                     |       |

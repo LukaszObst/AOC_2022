@@ -18,4 +18,7 @@
 | 06  | [Tuning Trouble](https://adventofcode.com/2022/day/6)            |  SQL                | [day06](./day06)  | ⭐⭐ |
 | 07  | [No Space Left On Device](https://adventofcode.com/2022/day/7)   |  Python             | [day07](./day07)  | ⭐⭐ |
 | 08  | [Treetop Tree House](https://adventofcode.com/2022/day/8)        |  SQL                | [day08](./day08)  | ⭐⭐ |
-| 09  | [Rope Bridge](https://adventofcode.com/2022/day/9)               |  in progress        |    in progress    |       |
+| 09  | [Rope Bridge](https://adventofcode.com/2022/day/9)               |  Python             | [day09](./day09)  | ⭐⭐ |
+| 10  | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10)         |  Python             | [day10](./day10)  | ⭐⭐ |
+| 11  | [Monkey in the Middle](https://adventofcode.com/2022/day/11)     |  Python             | in progress       |       |
+

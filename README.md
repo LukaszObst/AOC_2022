@@ -10,7 +10,7 @@
 
 | Day | Name                                                             | Language            | Solution          | Stars |
 | --- | ---------------------------------------------------------------- | --------------------| ----------------- | ----- |
-| 01  | [Calorie Counting](https://adventofcode.com/2022/day/1)          |  SQL + Python       | [day01](./day01)  | ⭐⭐ |
+| 01  | [Calorie Counting](https://adventofcode.com/2022/day/1)          |  SQL & Python       | [day01](./day01)  | ⭐⭐ |
 | 02  | [Rock Paper Scissors](https://adventofcode.com/2022/day/2)       |  SQL                | [day02](./day02)  | ⭐⭐ |
 | 03  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3)   |  SQL                | [day03](./day03)  | ⭐⭐ |
 | 04  | [Camp Cleanup](https://adventofcode.com/2022/day/4)              |  SQL                | [day04](./day04)  | ⭐⭐ |

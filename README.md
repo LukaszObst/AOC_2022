@@ -23,5 +23,6 @@ Oracle) & python.
 | 09  | [Rope Bridge](https://adventofcode.com/2022/day/9)              |  Python             | [day09](./day09) | ⭐⭐ |
 | 10  | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10)        |  Python             | [day10](./day10) | ⭐⭐ |
 | 11  | [Monkey in the Middle](https://adventofcode.com/2022/day/11)    |  Python             | [day11](./day11) | ⭐⭐ |
-| 12  | [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) |  Python             | in progress      | ⭐⭐ |
+| 12  | [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) |  Python             | [day12](./day12) | ⭐⭐ |
+| 13  | [Distress Signal](https://adventofcode.com/2022/day/13)         |  Python             |    in progress   | ⭐⭐ |
 
